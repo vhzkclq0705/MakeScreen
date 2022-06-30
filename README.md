@@ -8,7 +8,7 @@
 
 |Github|MakeScreen|Storyboard|
 |---|---|---|
-|![깃허브](https://user-images.githubusercontent.com/75382687/176746589-b5df5fa5-d9eb-4d85-9950-c03495867657.PNG)|![내꺼](https://user-images.githubusercontent.com/75382687/176750863-c3a0dae4-3327-4d2a-b69a-a7b41dd5ab87.PNG)|![스토리보드](https://user-images.githubusercontent.com/75382687/176746820-211a8183-c93e-4175-8637-d70ebc22556c.png)|
+|![깃허브](https://user-images.githubusercontent.com/75382687/176746589-b5df5fa5-d9eb-4d85-9950-c03495867657.PNG)|![내꺼](https://user-images.githubusercontent.com/75382687/176753565-d49f1cec-80d2-4178-b590-dee7aa44d862.jpeg)|![스토리보드](https://user-images.githubusercontent.com/75382687/176746820-211a8183-c93e-4175-8637-d70ebc22556c.png)|
 
 <br>
 
