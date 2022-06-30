@@ -14,10 +14,10 @@
 
 ## 느낀 점
 최근 대부분의 구현을 코드로만 하다보니 오토레이아웃을 설정하는 것이 너무 힘들었다.   
-스토리보드로 구현을 했을 때, StackView의 오토레이아웃 설정이 제일 어려울 것이라 생각하여 StackView를 최대한 많이 사용하였다.
-TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기에, 생각보다 많은 UI Componentent가 필요했다.   
-이번 과제 덕분에 Content Hugging Priority, Content Compression Resistance Priority를 설정하는 방법과 이유를 알게 되었다.   
-완전하게 똑같진 않지만, cornerRadius나 border를 스토리보드에서 설정해 줄 수 없기 때문에 Filled 속성의 버튼과 높이 0.5인 View들을 사용했다.
+스토리보드로 구현을 했을 때, StackView의 오토레이아웃 설정이 제일 어려울 것이라 생각하여 StackView를 최대한 많이 사용하였다.   
+TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기에, 생각보다 많은 UI Componentent가 필요했다.      
+이번 과제 덕분에 Content Hugging Priority, Content Compression Resistance Priority를 설정하는 방법과 이유를 알게 되었다.      
+완전하게 똑같진 않지만, cornerRadius나 border를 스토리보드에서 설정해 줄 수 없기 때문에 Filled 속성의 버튼과 높이 0.5인 View들을 사용했다.   
 
 ## 개발 이슈
 - 이미지 크기가 고정이라고 가정.
