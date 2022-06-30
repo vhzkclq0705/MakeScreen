@@ -19,7 +19,7 @@ TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기�
 이번 과제 덕분에 Content Hugging Priority, Content Compression Resistance Priority를 설정하는 방법과 이유를 알게 되었다.      
 완전하게 똑같진 않지만, cornerRadius나 border를 스토리보드에서 설정해 줄 수 없기 때문에 Filled 속성의 버튼과 높이 0.5인 View들을 사용했다.   
 
-## 개발 이슈
+## Priority 수정 작업
 - 이미지 크기가 고정이라고 가정.
 - ProfileInfoStackView
     - 각 StackView 내부 이미지의 Content Hugging Priority를 500으로 설정.   
