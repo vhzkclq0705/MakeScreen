@@ -1,6 +1,6 @@
 # MakeScreen
-## 케이스 스터디 1주차 과제
-- 기본적인 UI Components만으로 autolayout을 활용하여 앱의 정적인 화면 구현
+## 케이스 스터디 1주차 과제(UI Component와 오토레이아웃 공부하기)
+- TableView와 CollectionView, TabBar를 제외하고 코드 한 줄 없이 기본 UI Component와 오토레이아웃으로 임의의 정적인 앱 화면 구현
 - 깃허브 앱의 화면을 구현하기로 결정
 - Constraint와 Color를 정확하게 할 필요는 없다고 느껴서 비슷하게만 구현
 
@@ -13,6 +13,7 @@
 <br>
 
 ## 느낀 점
+~~ViewController가 하나 밖에 없는데 Storyboard 파일의 코드가 700줄이나 나왔다.~~   
 최근 대부분의 구현을 코드로만 하다보니 오토레이아웃을 설정하는 것이 너무 힘들었다.   
 스토리보드로 구현을 했을 때, StackView의 오토레이아웃 설정이 제일 어려울 것이라 생각하여 StackView를 최대한 많이 사용하였다.   
 TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기에, 생각보다 많은 UI Componentent가 필요했다.      
