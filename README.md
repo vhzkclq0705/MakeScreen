@@ -27,6 +27,12 @@
 |---|---|
 |![github](https://user-images.githubusercontent.com/75382687/176928173-4c4e8b65-906e-4885-91c6-a88bae390c8d.gif)|![MyScreen](https://user-images.githubusercontent.com/75382687/176928190-c70431b0-5428-44e8-971d-0571f4f415be.gif)|
 
+## iPhone 8 / iPhone 13 Pro Max
+
+|iPhone 8|iPhone 13 Pro Max|
+|---|---|
+|![iPhone8](https://user-images.githubusercontent.com/75382687/176930804-bf774fa7-ccab-45ec-aa92-9d08dd99874f.gif)|![iPhone13ProMax](https://user-images.githubusercontent.com/75382687/176930815-69bc2ff8-d19f-48f2-b4fc-3037c52af9b3.gif)|
+
 <br>
 
 ## 느낀 점
