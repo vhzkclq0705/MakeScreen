@@ -1,10 +1,10 @@
 # MakeScreen
 ## 케이스 스터디 1주차 과제(UI Component와 오토레이아웃 공부하기)
-- TableView와 CollectionView, TabBar를 제외하고 코드 한 줄 없이 기본 UI Component와 오토레이아웃으로 임의의 앱 화면 구현
+- TableView와 CollectionView를 제외하고 코드 한 줄 없이 기본 UI 컴포넌트와 오토레이아웃으로 임의의 앱 화면 구현
 - 깃허브 앱의 화면을 구현하기로 결정
-- Constraint와 Color를 정확하게 할 필요는 없다고 느껴서 비슷하게만 구현
-- ScrollView를 활용하여 CollectionView를 대신하였다.
-- 코드로 구현해야 하는 부분을 제외하고 모두 구현하였다. ex) 스크롤 내리면 border와 Title 보이게 하기 등
+- Constraint와 색을 정확하게 구현하기 힘들다고 판단하여 최대한 비슷하게 구현
+- ScrollView와 ContainerView를 활용하였다.
+- 코드로 구현해야 하는 부분을 제외하고 모두 구현하였다. ex) 스크롤 내리면 Navigation Bar에서 border와 Title 보이게 하기 등
 
 ## 결과
 
@@ -61,7 +61,7 @@
 
 ## 느낀 점
 
-- 최근 대부분의 구현을 코드로만 하다보니 오토레이아웃을 설정하는 것이 너무 힘들었다.   
+- 최근 대부분의 구현을 코드로만 하다보니 스토리보드에서 직접 오토레이아웃을 설정하는 것이 너무 힘들었다.   
 - 스토리보드로 구현을 했을 때, StackView의 오토레이아웃 설정이 제일 어려울 것이라 생각하여 StackView를 최대한 많이 사용하였다.   
 - TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기에, 생각보다 많은 UI Componentent가 필요했다.      
 - 이번 과제 덕분에 Content Hugging Priority, Content Compression Resistance Priority를 설정하는 방법과 이유를 알게 되었다.      
