@@ -33,14 +33,7 @@
 |---|---|
 |![iPhone8](https://user-images.githubusercontent.com/75382687/176930804-bf774fa7-ccab-45ec-aa92-9d08dd99874f.gif)|![iPhone13ProMax](https://user-images.githubusercontent.com/75382687/176930815-69bc2ff8-d19f-48f2-b4fc-3037c52af9b3.gif)|
 
-<br>
-
-## 느낀 점
-최근 대부분의 구현을 코드로만 하다보니 오토레이아웃을 설정하는 것이 너무 힘들었다.   
-스토리보드로 구현을 했을 때, StackView의 오토레이아웃 설정이 제일 어려울 것이라 생각하여 StackView를 최대한 많이 사용하였다.   
-TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기에, 생각보다 많은 UI Componentent가 필요했다.      
-이번 과제 덕분에 Content Hugging Priority, Content Compression Resistance Priority를 설정하는 방법과 이유를 알게 되었다.      
-완전하게 똑같진 않지만, cornerRadius나 border를 스토리보드에서 설정해 줄 수 없기 때문에 Filled 속성의 버튼과 높이 0.5인 View들을 사용했다.   
+<br> 
 
 ## Priority 수정 작업
 - 이미지 크기가 고정이라고 가정.
@@ -60,3 +53,16 @@ TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기�
     → 폰트가 가장 작은 부분이어서 높이가 줄어들어도 문제가 없다고 생각했기 때문에 우선순위를 가장 낮게 설정하였다.
     - 가장 아래 StackView의 text가 Swift인 label의 Content Hugging Priority를 200으로 설정.  
     → 해당 StackView 내부의 UI Componente들을 왼쪽으로 정렬해주기 위해서 가장 우측 label의 우선순위를 낮게 설정하였다.
+
+## 새로 알게된 점
+- Navigation Bar와 Tab Bar의 뚜렷한 색상을 설정해주기 위해서는 Translucent 속성을 false로 해주어야 한다.
+    > Translucent: Navigation Bar의 반투명 여부를 설정하는 인스턴스 속성
+
+
+## 느낀 점
+
+- 최근 대부분의 구현을 코드로만 하다보니 오토레이아웃을 설정하는 것이 너무 힘들었다.   
+- 스토리보드로 구현을 했을 때, StackView의 오토레이아웃 설정이 제일 어려울 것이라 생각하여 StackView를 최대한 많이 사용하였다.   
+- TableView나 CollectionView 없이 View와 StackView로만 구현해야 했기에, 생각보다 많은 UI Componentent가 필요했다.      
+- 이번 과제 덕분에 Content Hugging Priority, Content Compression Resistance Priority를 설정하는 방법과 이유를 알게 되었다.      
+- 완전하게 똑같진 않지만, cornerRadius나 border를 스토리보드에서 설정해 줄 수 없기 때문에 Filled 속성의 버튼과 높이 0.3인 View들을 사용했다.  
